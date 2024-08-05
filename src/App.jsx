@@ -1,16 +1,23 @@
-import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Welcome from "./components/Welcome";
+import Bg from "./assets/background.png";
 
 function App() {
-  const nama = "Angel";
-  const prodi = "SI";
-
   return (
     <div className="overflow-x-hidden text-neutral-300">
-      <div className="fixed top-0 h-full w-full -z-10 absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(120%_125%_at_50%_10%,#000_45%,#241906_70%)]"></div>
+      <div className="absolute top-0 -z-10 inset-0 h-[90%] lg:h-full w-full">
+        <div className="absolute top-0 z-[-1] w-full h-full [background:radial-gradient(120%_127%_at_50%_10%,#10100F_55%,#3A240C_70%)]">
+          <div
+            className="absolute top-0 z-[-2] w-screen h-full bg-cover"
+            style={{ backgroundImage: `url(${Bg})` }}
+          ></div>
+        </div>
+      </div>
       <div className="mx-auto">
         <Navbar />
         <Home />
+        <Welcome />
       </div>
     </div>
   );
