@@ -3,6 +3,7 @@ import Sambutan from "../assets/sambutan.png";
 import Kahim from "../assets/kahim.png";
 import Wakahim from "../assets/wakahim.png";
 import Tag from "../assets/tag.png";
+import Batas from "../assets/batas 2.png";
 import { useState } from "react";
 
 const Welcome = () => {
@@ -14,9 +15,9 @@ const Welcome = () => {
         className="-mt-16 md:-mt-32"
         style={{ backgroundImage: `url(${Bg})` }}
       >
-        <div className="py-10 px-5">
+        <div className="py-10 px-5 pb-16 md:pb-24 lg:pb-32">
           <div>
-            <img className="pt-16 mx-auto lg:pt-28" src={Sambutan} alt="" />
+            <img className="pt-10 mx-auto lg:pt-28" src={Sambutan} alt="" />
           </div>
           <div className="grid flex-col mx-auto pt-10 md:grid-cols-2 md:justify-center md:gap-2 lg:grid-cols-4 lg:pt-20">
             <div className="flex flex-col items-center w-full">
@@ -90,9 +91,15 @@ const Welcome = () => {
               <span className="font-extrabold text-black">
                 HMP SI UNESA 2024
               </span>
+              <span className="font-bold text-amber-900 text-xl mx-auto pt-8 md:text-2xl lg:text-4xl lg:mt-10">
+                #SatukanGagasCiptakanKarya
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <div className="-mt-10 md:-mt-14 lg:-mt-20">
+        <img className="md:h-[110px] lg:h-[170px] w-full" src={Batas} alt="" />
       </div>
     </>
   );

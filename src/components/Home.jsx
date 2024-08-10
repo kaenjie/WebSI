@@ -4,7 +4,7 @@ import Pembatas from "../assets/pembatas.png";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col items-center lg:flex-row lg:justify-center pt-[70px]">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-center pt-[50px]">
         <div className="flex items-center flex-col lg:items-start">
           <h1 className="text-white text-[15px] md:text-[25px] lg:text-[30px]">
             Welcome To

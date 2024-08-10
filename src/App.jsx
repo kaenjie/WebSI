@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Welcome from "./components/Welcome";
 import Bg from "./assets/background.png";
+import About from "./components/About";
+import Documentations from "./components/Documentation";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Navbar />
         <Home />
         <Welcome />
+        <About />
+        <Documentations />
       </div>
     </div>
   );
