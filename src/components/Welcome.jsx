@@ -19,10 +19,10 @@ const Welcome = () => {
           <div>
             <img className="pt-10 mx-auto lg:pt-28" src={Sambutan} alt="" />
           </div>
-          <div className="grid flex-col mx-auto pt-10 md:grid-cols-2 md:justify-center md:gap-2 lg:grid-cols-4 lg:pt-20">
+          <div className="grid flex-col mx-auto pt-10 md:grid-cols-2 md:justify-center md:gap-2 lg:grid-cols-4 lg:pt-10 2xl:pt-24">
             <div className="flex flex-col items-center w-full">
               <img
-                className="mx-auto w-[195px] md:w-[230px] lg:h-[355px] lg:w-[210px]"
+                className="mx-auto w-[195px] md:w-[230px] lg:h-[355px] lg:w-[210px] lg:mt-8 2xl:-mt-6"
                 src={Kahim}
                 alt=""
               />
@@ -42,11 +42,11 @@ const Welcome = () => {
             </div>
             <div className="flex flex-col items-center mt-12 lg:order-last">
               <img
-                className="mx-auto w-[290px] -mt-2 md:-mt-10 md:w-[340px]"
+                className="mx-auto w-[290px] -mt-2 md:-mt-10 md:w-[340px] lg:mt-[-20px] 2xl:-mt-20"
                 src={Wakahim}
                 alt=""
               />
-              <button className="bg-[#D98020] text-white text-lg font-semibold rounded-full px-10 py-1.5 md:text-2xl">
+              <button className="bg-[#D98020] text-white text-lg font-semibold rounded-full px-10 py-1.5 md:text-2xl 2xl:-mt-6">
                 Satriyo Imam Arifin
               </button>
               <div>
@@ -60,10 +60,9 @@ const Welcome = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col mt-10 px-5 text-justify text-[16px] md:col-span-2 md:mt-10 md:text-[20px] lg:text-[24px] lg:mt-0">
+            <div className="flex flex-col mt-10 px-5 text-justify text-[16px] md:col-span-2 md:mt-10 md:text-[20px] lg:text-[24px] lg:mt-0 2xl:-mt-10">
               <span className="font-extrabold text-black">
-                Assalamualaikum Wr. Wb., Shalom, Om Swastyastu, Namo Buddhaya,
-                Salam Kebajikan Bagi Kita Semua.
+                Assalamualaikum Wr. Wb.
               </span>
               <br />
               <span className={`text-black ${open ? null : "line-clamp-[9]"}`}>
@@ -99,7 +98,11 @@ const Welcome = () => {
         </div>
       </div>
       <div className="-mt-10 md:-mt-14 lg:-mt-20">
-        <img className="md:h-[110px] lg:h-[170px] w-full" src={Batas} alt="" />
+        <img
+          className="md:h-[110px] lg:h-[160px] 2xl:h-[180px] w-full"
+          src={Batas}
+          alt=""
+        />
       </div>
     </>
   );

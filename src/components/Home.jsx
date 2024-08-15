@@ -4,7 +4,7 @@ import Pembatas from "../assets/pembatas.png";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col items-center lg:flex-row lg:justify-center pt-[50px]">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-center pt-[50px] 2xl:gap-10 2xl:pb-36">
         <div className="flex items-center flex-col lg:items-start">
           <h1 className="text-white text-[15px] md:text-[25px] lg:text-[30px]">
             Welcome To
@@ -15,12 +15,12 @@ const Home = () => {
           </div>
         </div>
         <img
-          className="w-[350px] md:w-[650px] lg:w-[700px] pt-5 md:pt-10"
+          className="w-[350px] md:w-[650px] lg:w-[700px] 2xl:w-[800px] pt-5 md:pt-10"
           src={Gedung}
           alt=""
         />
       </div>
-      <div className="mt-10 w-full md:h-[300px] md:mt-[60px] lg:mt-18">
+      <div className="mt-10 w-full md:h-[300px] md:mt-[60px] lg:mt-18 2xl:-mt-32">
         <img
           className="md:h-[250px] lg:h-[300px] w-full"
           src={Pembatas}

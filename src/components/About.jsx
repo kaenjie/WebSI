@@ -1,25 +1,30 @@
 import Bg from "../assets/BG 1.png";
 import Tentang from "../assets/tentang.png";
 import LogoSI from "../assets/logo 2.png";
+import Pembatas from "../assets/pembatas.png";
 
 const About = () => {
   return (
     <>
       <div
-        className="-mt-5 md:-mt-14 lg:-mt-24"
+        className="-mt-5 md:-mt-14 lg:-mt-24 2xl:-mt-28 pb-10 2xl:pb-16"
         style={{ backgroundImage: `url(${Bg})` }}
       >
         <div className="py-8 px-5">
           <div>
-            <img className="mx-auto md:mt-10 lg:mt-20" src={Tentang} alt="" />
-          </div>
-          <div className="pt-4 lg:grid lg:grid-cols-2">
             <img
-              className="w-[230px] mx-auto md:w-[310px] lg:order-last lg:w-[520px] lg:mt-20"
+              className="mx-auto md:mt-10 lg:mt-20 2xl:mt-28"
+              src={Tentang}
+              alt=""
+            />
+          </div>
+          <div className="pt-4 lg:grid lg:grid-cols-2 2xl:gap-0 2xl:w-[100%] 2xl:mx-28">
+            <img
+              className="w-[230px] mx-auto md:w-[310px] lg:order-last lg:w-[520px] 2xl:w-[450px] lg:mt-20 2xl:mt-6 2xl:mx-16"
               src={LogoSI}
               alt=""
             />
-            <div className="flex flex-col text-justify mx-4 lg:mx-8">
+            <div className="flex flex-col text-justify mx-4 lg:mx-8 2xl:mx-0">
               <h3 className="font-bold text-lg text-black mt-8 mb-4 lg:text-4xl">
                 Pengertian HMP SI UNESA
               </h3>
@@ -62,6 +67,13 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="w-full -mt-10 md:h-[300px] md:-mt-16 lg:mt-18">
+        <img
+          className="md:h-[250px] lg:h-[250px] w-full"
+          src={Pembatas}
+          alt=""
+        />
       </div>
     </>
   );
