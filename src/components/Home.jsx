@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className="mt-10 w-full md:h-[300px] md:mt-[60px] lg:mt-18 2xl:-mt-32">
         <img
-          className="md:h-[250px] lg:h-[300px] w-full"
+          className="md:h-[250px] lg:h-[260px] w-full"
           src={Pembatas}
           alt=""
         />

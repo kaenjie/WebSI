@@ -11,7 +11,7 @@ const Profile = () => {
     >
       <div className="pt-7 pb-4 md:pt-12">
         <img
-          className="mx-auto  h-full w-[80%] lg:mt-6 2xl:w-[80%] 2xl:mt-10"
+          className="mx-auto  h-full w-[80%] lg:mt-6 2xl:w-[60%] 2xl:mt-10"
           src={profil}
           alt="Gambar Tentang"
         />

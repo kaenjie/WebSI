@@ -22,7 +22,7 @@ function Documentation() {
     >
       <div className="w-full pt-12 pb-10 ">
         <img
-          className="mx-auto h-full w-[80%] lg:w-[80%] lg:mt-8 2xl:w-[80%] 2xl:mt-8"
+          className="mx-auto h-full w-[80%] lg:w-[80%] lg:mt-8 2xl:w-[70%] 2xl:mt-8"
           src={Dokumentasi}
           alt="Gambar Tentang"
         />

@@ -13,7 +13,7 @@ const About = () => {
         <div className="py-8 px-5">
           <div>
             <img
-              className="mx-auto md:mt-10 lg:mt-20 2xl:mt-28"
+              className="mx-auto md:mt-10 lg:mt-20 2xl:mt-28 2xl:w-[70%]"
               src={Tentang}
               alt=""
             />

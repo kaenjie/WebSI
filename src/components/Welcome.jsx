@@ -17,9 +17,9 @@ const Welcome = () => {
       >
         <div className="py-10 px-5 pb-16 md:pb-24 lg:pb-32">
           <div>
-            <img className="pt-10 mx-auto lg:pt-28" src={Sambutan} alt="" />
+            <img className="pt-8 mx-auto lg:pt-20 2xl:w-[70%]" src={Sambutan} alt="" />
           </div>
-          <div className="grid flex-col mx-auto pt-10 md:grid-cols-2 md:justify-center md:gap-2 lg:grid-cols-4 lg:pt-10 2xl:pt-24">
+          <div className="grid flex-col mx-auto pt-6 md:grid-cols-2 md:justify-center md:gap-2 lg:grid-cols-4 lg:pt-10 2xl:pt-24">
             <div className="flex flex-col items-center w-full">
               <img
                 className="mx-auto w-[195px] md:w-[230px] lg:h-[355px] lg:w-[210px] lg:mt-8 2xl:-mt-6"
