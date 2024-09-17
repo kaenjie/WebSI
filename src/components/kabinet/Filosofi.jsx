@@ -5,17 +5,18 @@ import kabinet1 from "../../assets/pecahan 1.png";
 import kabinet2 from "../../assets/pecahan 2.png";
 import kabinet3 from "../../assets/pecahan 3.png";
 import kabinet4 from "../../assets/pecahan 4.png";
+import pembatas from "../../assets/pembatas.png";
 
 const Filosofi = () => {
   return (
     <>
       <div
-        className="-mt-16 md:-mt-40"
+        className="-mt-16"
         style={{ backgroundImage: `url(${Bg})` }}
       >
-        <div className="py-10 px-5 pb-24 md:pb-24 lg:pb-28 2xl:pb-36">
+        <div className="py-10 px-5 pb-24 md:pb-24 lg:pb-32 2xl:pb-36">
           <div>
-            <img className="pt-8 mx-auto lg:pt-24 lg:w-[70%]" src={Sambutan} alt="" />
+            <img className="pt-8 mx-auto lg:w-[70%]" src={Sambutan} alt="" />
           </div>
           <div className=" md:pt-10 lg:pt-4 2xl:pt-16 grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3 lg:gap-0">
             <div className="flex flex-col items-center w-full 2xl:-mt-8">

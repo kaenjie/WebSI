@@ -25,11 +25,11 @@ const Navbar = () => {
           <img className="w-[40px]" src={LogoSi} alt="Logo SI"></img>
         </div>
         <div className="hidden md:flex m-8 items-center gap-4 justify-center text-1xl">
-          <a href="/">Home</a>
+          <a href="/">Beranda</a>
           <a href="/kabinet">Kabinet</a>
           <a href="">Tentang</a>
           <div>
-            <button className="flex " onClick={handleDropdown}>
+            <button className="flex" onClick={handleDropdown}>
               Departemen
               <svg
                 className="w-5 h-5"

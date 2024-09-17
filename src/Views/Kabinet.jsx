@@ -1,8 +1,10 @@
 import Navbar from "../components/Navbar";
 import Home from "../components/kabinet/Home";
 import Bg from "../assets/background.png";
-import Footer from "../components/Footer";
 import Filosofi from "../components/kabinet/Filosofi";
+import Warna from "../components/kabinet/Warna";
+import Visi from "../components/kabinet/Visi";
+import Footer from "../components/Footer";
 
 function Beranda() {
   return (
@@ -19,6 +21,8 @@ function Beranda() {
         <Navbar />
         <Home />
         <Filosofi />
+        <Warna />
+        <Visi />
         <Footer />
       </div>
     </div>

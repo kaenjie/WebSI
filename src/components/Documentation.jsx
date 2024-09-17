@@ -1,5 +1,5 @@
 import React from "react";
-import Bg from "../assets/BG 2.png";
+import Bg from "../assets/BG 23.png";
 import Dokumentasi from "../assets/dokumentasi.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
