@@ -29,4 +29,4 @@ function Beranda() {
   );
 }
 
-export default Beranda;
+  export default Beranda;
