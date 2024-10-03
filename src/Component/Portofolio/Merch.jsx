@@ -50,7 +50,7 @@ const Merch = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-[#03346E] to-[#021526] py-16 pt-0 md:pt-6 pb-5 md:pb-12 lg:pb-20 -mb-1">
+    <div className="py-16 pt-0 md:pt-6 pb-5 md:pb-12 lg:pb-20 -mb-5">
       <h2 className="text-center text-4xl sm:text-5xl font-sans font-bold text-white mb-4 md:mb-8">
         Desain Merchandise
       </h2>

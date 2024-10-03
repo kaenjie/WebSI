@@ -50,7 +50,7 @@ const Instagram = () => {
   };
 
   return (
-    <div className="bg-[#03346E] py-16 pt-0 md:pt-6 pb-0 -mb-1">
+    <div className="py-16 pt-0 md:pt-6 pb-0 -mb-1">
       <h2 className="text-center text-4xl sm:text-5xl font-sans font-bold text-white mb-4 md:mb-8">
         Desain Instagram
       </h2>

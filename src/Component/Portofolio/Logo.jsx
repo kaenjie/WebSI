@@ -6,8 +6,6 @@ import logo4 from "../../assets/imglogo/postlog4.png";
 import logo5 from "../../assets/imglogo/postlog5.png";
 import logo6 from "../../assets/imglogo/postlog6.png";
 import logo7 from "../../assets/imglogo/postlog7.png";
-import bglogo from "../../assets/bgwelcome2.png"; 
-
 
 const Logo = () => {
   const portfolioItems = [
@@ -21,7 +19,7 @@ const Logo = () => {
   ];
 
   const scrollRef = useRef(null);
-  const [hoveredId, setHoveredId] = useState(null); // Track hovered image
+  const [hoveredId, setHoveredId] = useState(null);
 
   const scrollLeft = () => {
     scrollRef.current.scrollBy({
@@ -38,15 +36,7 @@ const Logo = () => {
   };
 
   return (
-    <section
-          className="px-6 py-16 lg:py-10"
-          style={{
-            backgroundImage: `url(${bglogo})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
+    <div className="pt-16">
       <h2 className="text-center text-4xl sm:text-5xl font-sans font-bold text-white mb-4 md:mb-8">
         Desain Logo
       </h2>
@@ -77,7 +67,9 @@ const Logo = () => {
             <div
               key={item.id}
               className={`snap-center flex-none w-64 md:w-80 h-96 transition-transform duration-300 transform 
-              ${hoveredId === item.id ? "scale-125 z-10" : "scale-95"} overflow-hidden relative`}
+              ${
+                hoveredId === item.id ? "scale-125 z-10" : "scale-95"
+              } overflow-hidden relative`}
               onMouseEnter={() => setHoveredId(item.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
@@ -85,14 +77,16 @@ const Logo = () => {
                 src={item.image}
                 alt=""
                 className={`w-full h-3/4 object-cover transition-opacity duration-300 ${
-                  hoveredId && hoveredId !== item.id ? "opacity-50" : "opacity-100"
+                  hoveredId && hoveredId !== item.id
+                    ? "opacity-50"
+                    : "opacity-100"
                 }`}
               />
             </div>
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -14,7 +14,7 @@ const Welcome = () => {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-16">
         {/* Text Section */}
         <center>
-          <div className="lg:w-1/2 mt-6 lg:mt-0">
+          <div className="lg:w-1/2 lg:mt-0">
             <h1 className="text-xl lg:text-6xl font-bold mb-6 leading-tight">
               Desain Berkelas, Hasil Tuntas-{" "}
               <span className="text-[#38BDF8]">Hanya di Grafistix</span>
