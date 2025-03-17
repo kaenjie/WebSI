@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="hidden md:flex m-8 items-center gap-4 justify-center text-1xl">
           <a href="/">Beranda</a>
           <a href="/kabinet">Kabinet</a>
-          <a href="">Tentang</a>
+          <a href="/tentang">Tentang</a>
           <div>
             <button className="flex" onClick={handleDropdown}>
               Departemen
